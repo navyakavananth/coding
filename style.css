@@ -1,0 +1,13 @@
+body{
+    font-family:'open sans condensed',sans-serif;
+    font-size:14px;
+    font-weight:500;
+    line-height:1.6em;
+}
+.text1{
+    padding-top:20px;
+    border:2px solid red;
+}
+.text2{
+    margin:20px;
+}
