@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Document</title>
+<style>
+.container{
+ display:gride;
+ height:90vh;
+gride-template-columns : 10% 80% 10%;
+gride-template-rows : 10% 80% 10%;
+
+}
+.header{
+background-color:rgb(81, 176, 236);
+gride-rows :1/2;
+gride-column :1/4;
+padding:50px;
+}
+.side-nav{
+background-color:rgb(166, 213, 48);
+gride-rows :2/3;
+gride-column : 1/2;
+padding:50px;
+}
+.content{
+background-color:rgb(232, 163, 15);
+gride-rows : 1/2;
+gride-column : 2/3;
+padding:50px;
+}
+.aside{
+background-color:rgb(238, 120, 206);
+padding:50px;
+}
+.footer{
+background-color:rgb(199, 237, 225);
+gride-column : 1/4;
+padding:50px;
+}
+.continer>div{
+font-size:20px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+</style>
+</head>
+<body>
+ <div class="container">
+ <div class="header">Header</div>
+  <div class="side-nav">SideNav</div>
+   <div class="content">Content</div>
+    <div class="aside">Aside</div>
+     <div class="footer">Footer</div>
+ </div>
+</body>
+</html>

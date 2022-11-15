@@ -3,45 +3,81 @@
     <title>
     Registration Page
     </title>
+    <style>
+        .input{
+            line-height: 40px; 
+            width:270px; 
+            height:135px;
+            padding:5px;         
+        }
+       
+        label{
+            width:100px;
+            display: inline-block;
+        }
+        
+
+    </style>
     </head>
     <body bgcolor="Lightskyblue">
-    <br>
-    <br>
-    <form>
-    
-    <label> Firstname </label>       
-    <input type="text" name="firstname" size="15"/> <br> <br>
-    <label> Middlename: </label>   
-    <input type="text" name="middlename" size="15"/> <br> <br>
-    <label> Lastname: </label>       
-    <input type="text" name="lastname" size="15"/> <br> <br>
-    
+        <div class="input">   
+    <form>         
+    <label> Firstname : </label>
+    <input type="text" name="firstname" size="15"/>
+    <label> Middlename :</label> 
+    <input type="text" name="middlename" size="15"/> 
+    <label> Lastname :</label> 
+    <input type="text" name="lastname" size="15"/>  
+    </form>
+</div>
     <label> 
     designation :
     </label> 
     <select>
-    <option value="designation">designation</option>
-    <option value="JAVA DEVELOPER">JAVA DEVELOPER</option>
-    
-    </select>
-    
-    <br>
-    <br>
-    <label> 
-    Gender :
-    </label><br>
-    <input type="radio" name="male"/> Male <br>
-    <input type="radio" name="female"/> Female <br>
-    <input type="radio" name="other"/> Other
-    <br>
-    <br>
-    
-    <label> 
-    Phone :
-    </label>
+    <option value="JAVA ">java</option>
+    <option value="PYTHON"> python</option>
+    <option value="ANGULAR">angular</option>
+    <option value="SQL">sql</option>
+    <option value="SPRINGBOOT">springboot</option>
+    <option value="OTHER">other</option>
+    </select> <br> <br>
+   
+    <label>
+        Gender : 
+       </label>
+       <select> 
+        <option value=" "></option>
+        <option value="Male">male</option>
+        <option value="Female">female</option>
+        <option value="Other">other</option>
+       </select> <br><br>
+      
+    <label>
+        Phone :</label>   
     <input type="text" name="country code"  value="+91" size="2"/> 
     <input type="text" name="phone" size="10"/> <br> <br>
-    Address
-    <br>
+
+    <label>
+        Aadhar No : </label>
+        <input type="text" name="number" size="12"/> <br><br>
+    
+    
+    <label>
+        E-Mail : </label>
+        <input type="text" name="numerical,special characters"/><br><br>
+
+    <label>Address :</label>
+     <br>
     <textarea cols="80" rows="5" value="address">
+        <br>
+        <label> 
+            submit: </label>
+            <div>
+                <input  type="sumbit">Login</button>
+                <input type="checkbox" checked="checked">Remember 
+                <input type="button" class="cancelbtn">Cancel</button>
+                Forget<a href="#">password?</a>
+            </div>
+        
+      
     
